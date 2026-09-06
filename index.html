@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio Game de Glaube Dantas">
+  <title>Glaube Dev Game</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio"><span class="brand-cloud">☁</span> PORTFÓLIO <b>GAME</b></a>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a class="nav-link active" href="#inicio">🏠 <span>INÍCIO</span></a>
+      <a class="nav-link" href="#sobre">⭐ <span>SOBRE MIM</span></a>
+      <a class="nav-link" href="#habilidades">⚔️ <span>HABILIDADES</span></a>
+      <a class="nav-link" href="#projetos">🏆 <span>PROJETOS</span></a>
+      <a class="nav-link" href="#contato">✉️ <span>CONTATO</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero screen">
+      <div class="stars"></div>
+      <div class="cloud cloud-a">☁</div>
+      <div class="cloud cloud-b">☁</div>
+      <div class="cloud cloud-c">☁</div>
+
+      <div class="intro">
+        <div class="phase-label">◆ FASE 01 ◆</div>
+        <h1>GLAUBE DEV GAME</h1>
+        <p>PORTFÓLIO DO JOGADOR</p>
+        <button class="start-btn" data-go="#sobre">▶ INICIAR JORNADA</button>
+      </div>
+
+      <div class="level-path">
+        <div class="level active"><span>01</span><small>🏠</small><b>INÍCIO</b></div>
+        <i></i>
+        <div class="level"><span>02</span><small>👨‍💻</small><b>SOBRE MIM</b></div>
+        <i></i>
+        <div class="level locked"><span>03 🔒</span><small>⚔️</small><b>HABILIDADES</b></div>
+        <i></i>
+        <div class="level locked"><span>04 🔒</span><small>🏆</small><b>PROJETOS</b></div>
+        <i></i>
+        <div class="level locked"><span>05 🔒</span><small>✉️</small><b>CONTATO</b></div>
+      </div>
+    </section>
+
+    <section id="sobre" class="screen about">
+      <div class="section-title">
+        <div>◆ FASE 02 ◆</div>
+        <h2>SOBRE MIM</h2>
+        <p>CONHEÇA O JOGADOR</p>
+      </div>
+
+      <div class="about-grid">
+        <article class="panel player-card">
+          <div class="avatar-wrap">
+            <img class="pixel-avatar" src="img/personagem.png" alt="Personagem pixel art de Glaube Dantas">
+          </div>
+          <div class="player-info">
+            <h3>GLAUBE DANTAS</h3>
+            <span class="badge">PLAYER 01</span>
+            <p>Estudante de Análise e Desenvolvimento de Sistemas e apaixonado por tecnologia. Estou em constante evolução para me tornar um Desenvolvedor Full Stack.</p>
+            <div class="meta"><span>📍</span><div><b>LOCALIZAÇÃO</b><br>São José dos Campos - SP</div></div>
+            <div class="meta"><span>⭐</span><div><b>NÍVEL</b><br>Estudante Dev</div></div>
+          </div>
+        </article>
+
+        <div class="side-panels">
+          <article class="panel mission">
+            <div class="panel-heading">MISSÃO PRINCIPAL</div>
+            <div class="mission-body"><span>🚩</span><p>Conseguir minha primeira vaga como Desenvolvedor Full Stack e impactar vidas com tecnologia.</p></div>
+          </article>
+
+          <article class="panel stats">
+            <div class="panel-heading">STATUS DO JOGADOR</div>
+            <div class="stat"><span>❤️ DETERMINAÇÃO</span><div class="bar"><i style="width:90%"></i></div><b>90%</b></div>
+            <div class="stat"><span>⭐ FOCO</span><div class="bar"><i style="width:85%"></i></div><b>85%</b></div>
+            <div class="stat"><span>⚡ DISCIPLINA</span><div class="bar"><i style="width:80%"></i></div><b>80%</b></div>
+            <div class="stat"><span>💎 CRIATIVIDADE</span><div class="bar"><i style="width:75%"></i></div><b>75%</b></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="screen skills">
+      <div class="section-title"><div>◆ FASE 03 ◆</div><h2>HABILIDADES</h2><p>ARSENAL DO DESENVOLVEDOR</p></div>
+      <div class="cards">
+        <article class="panel skill-card"><span class="icon">🌐</span><h3>FRONT-END</h3><p>HTML, CSS, JavaScript e Bootstrap.</p><div class="bar"><i style="width:75%"></i></div><small>75%</small></article>
+        <article class="panel skill-card"><span class="icon">⚙️</span><h3>BACK-END</h3><p>Java, Python, Node.js e APIs.</p><div class="bar"><i style="width:60%"></i></div><small>60%</small></article>
+        <article class="panel skill-card"><span class="icon">🗄️</span><h3>BANCO DE DADOS</h3><p>SQL, modelagem e integração.</p><div class="bar"><i style="width:65%"></i></div><small>65%</small></article>
+      </div>
+    </section>
+
+    <section id="projetos" class="screen projects">
+      <div class="section-title"><div>◆ FASE 04 ◆</div><h2>PROJETOS</h2><p>MISSÕES CONCLUÍDAS</p></div>
+      <div class="cards">
+        <article class="panel project-card"><span class="project-icon">🅿️</span><h3>NEOPARK</h3><p>Sistema para gerenciamento de estacionamento.</p><a href="#" class="pixel-btn">VER PROJETO</a></article>
+        <article class="panel project-card"><span class="project-icon">🤖</span><h3>AI PC BUILDER</h3><p>Assistente para montar configurações de PC.</p><a href="#" class="pixel-btn">VER PROJETO</a></article>
+        <article class="panel project-card"><span class="project-icon">💼</span><h3>GLAUCODEDEV</h3><p>Experimentos e soluções web para portfólio.</p><a href="#" class="pixel-btn">VER PROJETO</a></article>
+      </div>
+    </section>
+
+    <section id="contato" class="screen contact">
+      <div class="section-title"><div>◆ FASE 05 ◆</div><h2>CONTATO</h2><p>VAMOS CRIAR ALGO?</p></div>
+      <div class="panel contact-box">
+        <h3>🚀 PRÓXIMA MISSÃO</h3>
+        <p>Estou aberto a oportunidades, projetos e conexões na área de desenvolvimento.</p>
+        <div class="contact-actions">
+          <a class="pixel-btn" href="mailto:seuemail@email.com">✉️ E-MAIL</a>
+          <a class="pixel-btn" href="https://github.com/" target="_blank">💻 GITHUB</a>
+          <a class="pixel-btn" href="https://www.linkedin.com/" target="_blank">🔗 LINKEDIN</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 GLAUBE DEV GAME</span>
+    <span>PLAYER 01 • LEVEL UP 🚀</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
